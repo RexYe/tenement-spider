@@ -13,13 +13,13 @@ BOT_NAME = 'tenement'
 
 SPIDER_MODULES = ['tenement.spiders']
 NEWSPIDER_MODULE = 'tenement.spiders'
-
+DEFAULT_ITEM_CLASS = 'tenement.items.TenementItem'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'tenement (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
